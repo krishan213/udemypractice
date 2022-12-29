@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- name = id -->
+    <form action="back.php">
+        <div>
+            <label for="getname">Name:</label>
+            <input type="text" id="getname" name="name">
+        </div>  
+        <div>
+            <label for="getemail">Your Email:</label>
+            <input type="email" name="your email" id="em1">
+        </div>
+        <div>
+            <label for="getmsg">Your Message</label><br>
+            <textarea name="your message" id="msg1" cols="30" rows="10"></textarea>
+        </div>
+        <!-- <div>
+            <input type="file" name="file" id="getfile"><br>
+            <input type="date" name="date" id="getdate"><br>
+            <input type="radio" name="radio" id="getrd"><br>
+            <input type="range" name="range" id="getrange"><br>
+        </div> -->
+        <div>
+            <!-- <label for="btn">Button</label> -->
+            <input type="button" value="reset">
+            <input type="submit" value="save">
+        </div>
+    </form>
+</body>
+</html>
